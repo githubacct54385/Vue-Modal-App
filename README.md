@@ -3,6 +3,7 @@
 ## Notes
 I made some slight adjustments to the course content.
 1. Added SASS using `node-sass` and `sass-loader`
+2. Added `.prettierrc` with some of my formatting preferences
 
 ## Project setup
 ```
