@@ -13,13 +13,32 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .modal {
   width: 400px;
   padding: 20px;
   margin: 100px auto;
   background: white;
   border-radius: 10px;
+
+  h1 {
+    color: #03cfb4;
+    border: none;
+    padding: 0;
+  }
+
+  p {
+    font-style: normal;
+  }
+
+  &.sale {
+    background: crimson;
+    color: white;
+
+    h1 {
+      color: white;
+    }
+  }
 }
 .backdrop {
   top: 0;
@@ -27,22 +46,5 @@ export default {
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
-}
-.modal h1 {
-  color: #03cfb4;
-  border: none;
-  padding: 0;
-}
-.modal p {
-  font-style: normal;
-}
-
-.modal.sale {
-  background: crimson;
-  color: white;
-}
-
-.modal.sale h1 {
-  color: white;
 }
 </style>
