@@ -1,5 +1,9 @@
 # modal-project
 
+## Notes
+I made some slight adjustments to the course content.
+1. Added SASS using `node-sass` and `sass-loader`
+
 ## Project setup
 ```
 yarn install
